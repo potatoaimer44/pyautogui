@@ -56,4 +56,4 @@ time.sleep(5)
 for message in messages:
     pi.typewrite(message)
     pi.press("enter")
-    time.sleep(1)		
+    time.sleep(1)	#optional line
