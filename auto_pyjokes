@@ -1,0 +1,10 @@
+import pyautogui as pi 
+import pyjokes
+import time
+
+time.sleep(5)
+for i in range(25):
+    jokes=pyjokes.get_joke()
+    pi.typewrite(jokes)
+    pi.press("enter")
+    time.sleep(0)
